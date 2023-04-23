@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FE7100; /* Light royal orange */
+        }
+
+        h1, h2 {
+            color: #000000; /* black */
+            text-align: center;
+        }
+
+        p {
+            color: #000000; /* black */
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0 0 20px 0;
+            padding: 0;
+        }
+
+        a {
+            color: #FFFFFF; /* white */
+            text-decoration: none;
+            background-color: #21468B; /* Dark Blue */
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+            input[type="text"] {
+                padding: 10px;
+                border-radius: 5px;
+                border: none;
+                margin-bottom: 20px;
+                width: 10%;
+                box-sizing: border-box;
+            }
+
+        button[type="submit"] {
+            padding: 10px;
+            background-color: #FFFFFF; /* white */
+            color: #21468B; /* Dark blue */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            button[type="submit"]:hover {
+                background-color: #EFEFEF; /* Light grey */
+            }
+
+        select {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 20px;
+            width: 10%;
+            box-sizing: border-box;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #EFEFEF; /* light grey */
+        }
+
+        th {
+            background-color: #FE5000;
+            color: #21468B; /* Dark blue */
+        }
+
+        tr:nth-child(even) {
+            background-color: #EFEFEF; /* light grey */
+        }
+
+        /* Royal Dutch colors */
+        table tr:first-child td:nth-child(1),
+        table tr:first-child td:nth-child(3),
+        table tr:first-child td:nth-child(2) {
+            background-color: #FFFFFF; /* White */
+        }
+
+
+        table tr:nth-child(2) td:nth-child(1),
+        table tr:nth-child(2) td:nth-child(3),
+        table tr:nth-child(2) td:nth-child(2) {
+            background-color: #21468B;  /* Dark blue */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hey!</h1>
+    <h2>Iets over mij</h2>
+    <p>Mijn naam is Ian Lippelt en ik heb wel zin in een DevOps traineeship!</p>
+    <p>Ik hou van optimalisatie en verbeteren!</p>
+
+    <br>
+
+    <a href="https://www.google.com">Visit Google</a>
+
+    <br><br>
+
+    <img src="https://picsum.photos/200">
+
+
+    <form>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Submit</button>
+    </form>
+
+    <br><br>
+
+
+    <label for="color">Choose your favorite color:</label>
+    <select id="color" name="color">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+    </select>
+
+
+    <div>
+        <h3>My future skills</h3>
+        <ul>
+            <li>HTML?</li>
+            <li>CSS?</li>
+            <li>A bit of JavaScript?</li>
+        </ul>
+    </div>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>30</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>25</td>
+                <td>Female</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
